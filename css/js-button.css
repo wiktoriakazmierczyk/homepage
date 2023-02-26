@@ -1,0 +1,18 @@
+.js-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #e6e6e6;
+    background-color: #222;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px -25px #222;
+}
+
+.js-button:hover {
+    background-color: #bbb;
+}
+
+.js-button:active {
+    background-color: #222;
+}

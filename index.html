@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/js-button.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header id="strona-glowna">
+        <h1 class="header">W A L E N C J A</h1>
+        <h2 class="subheader">PRAWDZIWA PERŁA KATALONII</h2>
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__menu">
+                    <a class="navigation__link" href="#strona-glowna">strona główna</a>
+                </li>
+                <li class="navigation__menu">
+                    <a class="navigation__link" href="#o-miescie">o mieście</a>
+                </li>
+                <li class="navigation__menu">
+                    <a class="navigation__link" href="#pogoda">pogoda</a>
+                </li>
+                <li class="navigation__menu">
+                    <a class="navigation__link" href="#tanie-loty">tanie loty</a>
+                </li>
+                <li class="navigation__menu">
+                    <a class="navigation__link" href="#galeria-zdjec">galeria zdjęć</a>
+                </li>
+            </ul>
+        </nav>
+        <div><img class="image" width="300" src="https://i.postimg.cc/3rfPGKSq/valencia.jpg"
+                alt="hiszp. Ciudad de las Artes y las Ciencias">
+        </div>
+        <p>Leżąca w środkowo-wschodniej Hiszpanii nad Morzem Śródziemnym Walencja, to stolica prowincji i
+            wspólnoty autonomicznej o tej samej nazwie. Jest trzecim co do wielkości miastem Hiszpanii z 801 545
+            mieszkańcami w granicach administracyjnych (municipio) oraz 1 582 387 mieszkańcami w granicach metropolii.
+        </p>
+        <hr class="hr">
+    </header>
+    <main>
+        <article id="o-miescie">
+            <h3 class="h3">pozycja na świecie</h3>
+            <p>
+                Jest to <strong>czwarty</strong> co do wielkości port morski w Europie pod względem
+                ilości przeładowanych kontenerów oraz węzeł kolejowy szybkiej kolei, drogowy i lotniczy. W rankingu
+                <span class="body__element"><b><i>Globalization and World Cities Research Network 2020</i></b></span>
+                została
+                oznaczone jako metropolia światowa trzeciej kategorii - <b><em>gamma</em></b>. W rankingu
+                <span class="body__element"><b><i>Expat Insider 2020</i></b></span>, Walencja została określona
+                najlepszym
+                miastem dla przyjezdnych na świecie. Miasto jest też wysoko notowane w rankingach dotyczących
+                najzdrowszych
+                miast do życia, zajmując odpowiednio 1 miejsce oraz 15 miejsce na świecie. W mieście działa Giełda
+                Papierów
+                Wartościowych <strong>Bolsa de Valencia.</strong>
+            </p>
+            <h3 class="h3">miasto sztuki i nauki</h3>
+            <p>
+                W Walencji i okolicach jest kilka kulturowych obiektów / elementów wpisanych na listę reprezentatywną
+                niematerialnego dziedzictwa kulturowego UNESCO, w tym Święto Ognia, podczas którego palone są różnorodne
+                konstrukcje, wieże z ludzi Castell, Święto Matki Bożej Dobrego Zdrowia, rytuał bębnów Tamborada oraz
+                Trybunał Wodny w Walencji. Na przedmieściach co roku organizawana jest Tomatina, znana na świecie bitwa
+                na pomidory.
+            </p>
+        </article>
+        <section id="pogoda">
+            <h3 class="h3">pogoda</h3>
+            <div class="container">
+                <table class="table">
+                    <caption class="table__caption">Średnia dobowa temperatura morza (°C)</caption>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="col">miasto</th>
+                        <th class="table__cell table__cell--header" scope="col">sty</th>
+                        <th class="table__cell table__cell--header" scope="col">lut</th>
+                        <th class="table__cell table__cell--header" scope="col">mar</th>
+                        <th class="table__cell table__cell--header" scope="col">kwi</th>
+                        <th class="table__cell table__cell--header" scope="col">maj</th>
+                        <th class="table__cell table__cell--header" scope="col">cze</th>
+                        <th class="table__cell table__cell--header" scope="col">lip</th>
+                        <th class="table__cell table__cell--header" scope="col">sie</th>
+                        <th class="table__cell table__cell--header" scope="col">wrz</th>
+                        <th class="table__cell table__cell--header" scope="col">paź</th>
+                        <th class="table__cell table__cell--header" scope="col">lis</th>
+                        <th class="table__cell table__cell--header" scope="col">gru</th>
+                        <th class="table__cell table__cell--header" scope="col">roczna</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Barcelona</th>
+                        <td class="table__cell">13,4</td>
+                        <td class="table__cell">13,1</td>
+                        <td class="table__cell">13,3</td>
+                        <td class="table__cell">15,0</td>
+                        <td class="table__cell">18,1</td>
+                        <td class="table__cell">21,9</td>
+                        <td class="table__cell">23,9</td>
+                        <td class="table__cell">25,2</td>
+                        <td class="table__cell">24,1</td>
+                        <td class="table__cell">21,8</td>
+                        <td class="table__cell">18,3</td>
+                        <td class="table__cell">15,4</td>
+                        <th class="table__cell" scope="row">18,6</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--highlighted table__cell--header" scope="row">Walencja</th>
+                        <td class="table__cell table__cell--highlighted">14,2</td>
+                        <td class="table__cell table__cell--highlighted">13,8</td>
+                        <td class="table__cell table__cell--highlighted">14,1</td>
+                        <td class="table__cell table__cell--highlighted">16,1</td>
+                        <td class="table__cell table__cell--highlighted">18,8</td>
+                        <td class="table__cell table__cell--highlighted">22,5</td>
+                        <td class="table__cell table__cell--highlighted">24,8</td>
+                        <td class="table__cell table__cell--highlighted">25,8</td>
+                        <td class="table__cell table__cell--highlighted">24,6</td>
+                        <td class="table__cell table__cell--highlighted">22,2</td>
+                        <td class="table__cell table__cell--highlighted">19,1</td>
+                        <td class="table__cell table__cell--highlighted">16,1</td>
+                        <th class="table__cell table__cell--highlighted" scope="row">19,4</th>
+                    </tr>
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="row">Malaga</th>
+                        <td class="table__cell">15,9</td>
+                        <td class="table__cell">15,6</td>
+                        <td class="table__cell">15,6</td>
+                        <td class="table__cell">16,8</td>
+                        <td class="table__cell">18,4</td>
+                        <td class="table__cell">20,9</td>
+                        <td class="table__cell">22,9</td>
+                        <td class="table__cell">23,5</td>
+                        <td class="table__cell">21,8</td>
+                        <td class="table__cell">20,4</td>
+                        <td class="table__cell">18,1</td>
+                        <td class="table__cell">16,6</td>
+                        <th class="table__cell" scope="row">18,9</th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="tanie-loty">
+            <h3 class="h3">tanie loty</h3>
+            <p>
+                <a rel="noroferrer noopener" target="_blank" class="navigation__link"
+                    href="https://wizzair.com/pl-pl/#/" title="Strona główna linii lotniczej Wizzair">wizzair.com</a>
+                <br>
+                <a rel="noroferrer noopener" target="_blank" class="navigation__link"
+                    href="https://www.ryanair.com/pl/pl" title="Strona główna linii lotniczej Ryanair">ryanair.com</a>
+            </p>
+        </section>
+        <section id="galeria-zdjec">
+            <h3 class="h3">galeria zdjęć</h3>
+            <p>
+                <button class="js-button">włącz <span class="themeName">ciemny</span> motyw</button>
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        Copyright © 2023 by Wiktoria Kaźmierczyk. All rights reserved.
+    </footer>
+</body>
+
+</html>

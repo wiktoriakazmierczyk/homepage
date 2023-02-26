@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation__menu {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    color: #222;
+}
+
+.navigation__link {
+    color: #222;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: #6f6f6f;
+}
+
+.navigation__link:active {
+    color: #0f6363;
+}
