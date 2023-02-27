@@ -1,6 +1,5 @@
 .html {
     box-sizing: border-box;
-    overflow-x: auto;
 }
 
 *, ::after, ::before {
@@ -23,14 +22,12 @@
 
 .image {
     display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
     border-radius: 5px;
     box-shadow: 0px 0px 50px -25px #222;
 }
 
-.hr {
+.divider {
     margin-top: 30px;
 }
 
@@ -49,15 +46,29 @@
     background-color: #e6e6e6;
     color: #222;
     line-height: 1.5;
+    transition: 0.3s;
 }
 
-.body__element {
+.body--dark {
+    color: #e6e6e6;
+    background-color: #6f6f6f;
+}
+
+.element {
     color: #1d9f9f;
 }
 
-.body__dark {
-    color: #e6e6e6;
-    background-color: #6f6f6f;
+.link {
+    color: #222;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #6f6f6f;
+}
+
+.link:active {
+    color: #0f6363;
 }
 
 .footer {

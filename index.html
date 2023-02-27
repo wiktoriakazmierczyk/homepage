@@ -11,44 +11,47 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/navigation.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/js-button.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
         rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
 
-<body class="body">
+<body class="body js-body">
     <header id="strona-glowna">
         <h1 class="header">W A L E N C J A</h1>
         <h2 class="subheader">PRAWDZIWA PERŁA KATALONII</h2>
         <nav>
             <ul class="navigation">
-                <li class="navigation__menu">
+                <li class="navigation__item">
                     <a class="navigation__link" href="#strona-glowna">strona główna</a>
                 </li>
-                <li class="navigation__menu">
+                <li class="navigation__item">
                     <a class="navigation__link" href="#o-miescie">o mieście</a>
                 </li>
-                <li class="navigation__menu">
+                <li class="navigation__item">
                     <a class="navigation__link" href="#pogoda">pogoda</a>
                 </li>
-                <li class="navigation__menu">
+                <li class="navigation__item">
                     <a class="navigation__link" href="#tanie-loty">tanie loty</a>
                 </li>
-                <li class="navigation__menu">
+                <li class="navigation__item">
                     <a class="navigation__link" href="#galeria-zdjec">galeria zdjęć</a>
                 </li>
             </ul>
         </nav>
-        <div><img class="image" width="300" src="https://i.postimg.cc/3rfPGKSq/valencia.jpg"
-                alt="hiszp. Ciudad de las Artes y las Ciencias">
+        <div>
+            <img class="image" 
+            width="300" 
+            src="https://i.postimg.cc/3rfPGKSq/valencia.jpg"
+            alt="hiszp. Ciudad de las Artes y las Ciencias">
         </div>
         <p>Leżąca w środkowo-wschodniej Hiszpanii nad Morzem Śródziemnym Walencja, to stolica prowincji i
             wspólnoty autonomicznej o tej samej nazwie. Jest trzecim co do wielkości miastem Hiszpanii z 801 545
             mieszkańcami w granicach administracyjnych (municipio) oraz 1 582 387 mieszkańcami w granicach metropolii.
         </p>
-        <hr class="hr">
+        <hr class="divider">
     </header>
     <main>
         <article id="o-miescie">
@@ -56,10 +59,10 @@
             <p>
                 Jest to <strong>czwarty</strong> co do wielkości port morski w Europie pod względem
                 ilości przeładowanych kontenerów oraz węzeł kolejowy szybkiej kolei, drogowy i lotniczy. W rankingu
-                <span class="body__element"><b><i>Globalization and World Cities Research Network 2020</i></b></span>
+                <span class="element"><b><i>Globalization and World Cities Research Network 2020</i></b></span>
                 została
                 oznaczone jako metropolia światowa trzeciej kategorii - <b><em>gamma</em></b>. W rankingu
-                <span class="body__element"><b><i>Expat Insider 2020</i></b></span>, Walencja została określona
+                <span class="element"><b><i>Expat Insider 2020</i></b></span>, Walencja została określona
                 najlepszym
                 miastem dla przyjezdnych na świecie. Miasto jest też wysoko notowane w rankingach dotyczących
                 najzdrowszych
@@ -151,17 +154,17 @@
         <section id="tanie-loty">
             <h3 class="h3">tanie loty</h3>
             <p>
-                <a rel="noroferrer noopener" target="_blank" class="navigation__link"
+                <a rel="noroferrer noopener" target="_blank" class="link"
                     href="https://wizzair.com/pl-pl/#/" title="Strona główna linii lotniczej Wizzair">wizzair.com</a>
                 <br>
-                <a rel="noroferrer noopener" target="_blank" class="navigation__link"
+                <a rel="noroferrer noopener" target="_blank" class="link"
                     href="https://www.ryanair.com/pl/pl" title="Strona główna linii lotniczej Ryanair">ryanair.com</a>
             </p>
         </section>
         <section id="galeria-zdjec">
             <h3 class="h3">galeria zdjęć</h3>
             <p>
-                <button class="js-button">włącz <span class="themeName">ciemny</span> motyw</button>
+                <button class="button js-button">włącz <span class="js-themeName">ciemny</span> motyw</button>
             </p>
         </section>
     </main>
