@@ -2,11 +2,15 @@
     display: flex;
     padding: 0;
     flex-direction: row;
+    white-space: nowrap;
+    overflow-x: auto;
 }
-
+ 
 .navigation__item {
     list-style-type: none;
+    text-transform: lowercase;
     text-align: center;
+    padding: 0 20px;
     margin: 0 auto;
     color: #222;
 }

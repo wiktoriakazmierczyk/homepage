@@ -2,6 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #e6e6e6;
+    text-transform: lowercase;
     background-color: #222;
     padding: 10px;
     border: none;
