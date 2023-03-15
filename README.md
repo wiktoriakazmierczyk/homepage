@@ -9,5 +9,5 @@ A brief description of Valencia, located in central-eastern Spain on the Mediter
 ## Demo
 https://wiktoriakazmierczyk.github.io/homepage/
 
-## Used technologies
+## Used features
 HTML, CSS, JavaScript (ES6+), BEM convention, Git.
